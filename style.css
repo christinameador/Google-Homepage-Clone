@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+}
+
+#navigation ul{
+    list-style-type: none;
+    padding: 1.3rem 2rem;
+    
+}
+ 
+#navigation ul:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+#navigation ul li{
+    float: right;
+    margin: 0 1rem;
+}
+#navigation ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+section {
+    display: block;
+    margin: 11rem 0;
+    text-align: center;
+}
+img.logo {
+    width: 300px;
+    height: 100px;
+}
+div#input-container {
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid grey;
+    padding: 5px 0;
+    border-radius: 20px;
+    border:1px solid rgb(247, 243, 243); 
+    box-shadow: 1px 0 2px 2px rgb(247, 243, 243)
+}
+div#input-container input {
+    border: none;
+    width: 88%;
+    padding: 11px 0;
+    outline: none;
+    font-size: 1.2rem;
+}
+ 
+i.fas {
+    display: inline-block;
+    width: 9%;
+    font-size: 1.2rem;;
+}
+
+.btn-container {
+    margin-top: 2.5rem;
+}
+.btn-container button {
+    padding: 0.5rem 1rem;
+    margin: 0 4px;
+    background: rgb(242, 242, 242);
+    border: none;
+    font-size: 1.2rem;
+    color: rgb(95, 99, 104);
+}
+.btn-container p {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+footer#footer {
+ 
+  background:rgb(242, 242, 242);
+}
+footer#footer  nav ul:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+footer#footer nav ul {
+    list-style-type: none;
+    padding: 10px 5px;
+}
+footer#footer nav ul li a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: rgb(95, 99, 104);
+}
+footer#footer .left-side  li{
+    float: left;
+    padding: 5px 5px;
+}
+footer#footer .right-side  li{
+    float: right;
+    padding: 5px 5px;
+}
+footer#footer nav p{
+    border-top: 1px solid grey;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    
+    font-size: 1.2rem;
+}
